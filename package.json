@@ -1,0 +1,17 @@
+{
+  "name": "shahr-azad-multiplayer-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Socket.IO multiplayer server for Shahr Azad 3D",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
